@@ -54,16 +54,16 @@ figure {
     line-height: 1.4;
   }
 
-  .image {
-    position: absolute;
+  .figure {
+    position: relative;
   }
 
   .text {
     background-color: rgba(0, 0, 0, .3);
     border-radius: 10px;
-    bottom: 10rem;
+    bottom: 2rem;
     left: 45%;
-    position: relative;
+    position: absolute;
     width: 50%;
   }
 
@@ -85,7 +85,7 @@ figure {
   }
 
   .text {
-    left: 55%;
+    left: 57%;
     width: 40%;
   }
 
@@ -95,6 +95,11 @@ figure {
 
   html {
     font-size: 130%;
+  }
+
+  .text {
+    left: 67%;
+    width: 30%;
   }
 
 }
